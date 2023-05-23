@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Tantra Alchemy</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet');
+        body {
+            font-family: 'IBM Plex Mono', monospace;
+            background-color: #000;
+        }
+        h1, h2, p, input, button {
+            color: #FFA500;
+        }
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center bg-black text-yellow-500">
+    <header class="text-center py-8">
+        <h1 class="text-4xl mb-4">Tantra Alchemy</h1>
+        <h2 class="text-2xl mb-4">Powered by Neural Networks</h2>
+    </header>
+
+    <section class="w-full max-w-md px-4 text-center">
+        <form id="signup-form" class="mb-4">
+            <div class="mb-4">
+                <label for="email" class="block text-sm mb-2">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" class="w-full px-3 py-2 border-2 border-yellow-500 bg-black">
+            </div>
+            <button type="submit" class="px-5 py-2 border-2 border-yellow-500">Sign Up</button>
+        </form>
+
+        <p class="mb-8">Discover the power of Tantric Alchemy in finding your perfect match, all backed by cutting-edge Neural Network technology.</p>
+    </section>
+
+  <img src= "https://ak.picdn.net/shutterstock/videos/3617660/thumb/1.jpg" alt="Tantric Couple">
+
+
+  
+    <section class="w-full max-w-md px-4 mb-12">
+        <h2 class="text-3xl mb-4">History of Tantric Healing</h2>
+        <p class="mb-4">Tantric healing is an ancient practice that has its roots in Tantra, a spiritual tradition originating in India over 5,000 years ago. It is a holistic approach to healing, encompassing physical, emotional, mental, and spiritual well-being. Tantra Alchemy draws on these time-honored principles to connect individuals seeking relationships based on deep emotional and spiritual connections.</p>
+
+        <h2 class="text-3xl mb-4">Tantra Alchemy and Relationships</h2>
+        <p class="mb-4">In modern society, many people struggle to find meaningful relationships and emotional connections. Tantra Alchemy offers a different approach, connecting people based on shared values, energy pathways, and spiritual beliefs. By incorporating these principles, we not only help individuals find partners, but also foster deep, long-lasting connections that embrace the transformative power of Tantric Healing.</p>
+
+<img src="https://www.stockvault.net/data/2011/12/05/128253/preview16.jpg" alt="Yin Yang Stock Image" class="mb-4">
+
+
+      
+
+      
+        <h2 class="text-3xl mb-4">Neural Network Powered</h2>
+        <p class="mb-4">The power of our Neural Network lies in its ability to analyze individual preferences, values, and energy patterns to make highly accurate match predictions. We use a state-of-the-art algorithm to identify the optimal partners for each user, ensuring the best possible chance of finding a fulfilling, balanced relationship. Start your journey towards emotional and spiritual growth today with Tantra Alchemy.</p>
+    </section>
+
+  <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="375" height="687" src="https://app.uizard.io/p/c6276ec4/embed" allowfullscreen></iframe>
+
+
+
+
+  
+    <footer class="w-full max-w-md px-4 pb-8">
+        <p class="text-center text-sm">&copy; 2023 Tantra Alchemy Academy. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
